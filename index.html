@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosy Mood Journal</title>
+</head>
+<body>
+
+    <main class="app-container">
+
+        <!-- Header Section -->
+        <header class="app-header">
+            <h1>Cosy Mood Journal</h1>
+            <p>Your personal space to track and reflect on your moods.</p>
+        </header>
+
+        <!-- Mood Entry Selection -->
+        <section class="mood-entry-selection">
+            <h2>What is your mood today?</h2>
+            <div class="mood-options">
+                <button class="mood-option" data-mood="happy">😊 happy</button>
+                <button class="mood-option" data-mood="sad">😢 sad</button>
+                <button class="mood-option" data-mood="angry">😠 angry</button>
+                <button class="mood-option" data-mood="relaxed">😌 relaxed</button>
+                <button class="mood-option" data-mood="anxious">😰 anxious</button>
+            </div>
+        </section>
+
+        <!-- Mood Reflection Section -->
+        <section class="mood-reflection">
+            <h2>Reflection</h2>
+            <label for="reflection">How are you feeling right now?</label>
+            <textarea id="reflection" placeholder="Write about your feelings..."></textarea>
+        </section>
+
+        <!-- Save Entry Button -->
+        <section class="save-entry">
+            <button class="save-button">Save Entry</button>
+        </section>
+
+        <!-- Check-in entries-->
+        <section class="check-in-entries">
+            <h2>Your mood entries</h2>
+            <div class="entries-list">
+                <!-- Mood entries will be dynamically added here -->
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>
